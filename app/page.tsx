@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-neutral-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-12 px-4">
+      {/* <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
             <Zap className="w-8 h-8" />
@@ -39,7 +39,7 @@ export default function Home() {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* Features Section */}
-      <div className="bg-white py-12 px-4 mt-12 border-t">
+      {/* <div className="bg-white py-12 px-4 mt-12 border-t">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold mb-8 text-center">Why FlashLearn?</h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -92,7 +92,7 @@ export default function Home() {
             </Card>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
